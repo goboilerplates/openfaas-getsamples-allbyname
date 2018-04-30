@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8000
 
 functions:
-  fn-getsamples-all:
+  fn-getsamples-allbyname:
     lang: go
     handler: ./function
     image: goboilerplates/openfaas-getsamples-allbyname
